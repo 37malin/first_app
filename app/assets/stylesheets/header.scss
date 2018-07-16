@@ -1,0 +1,53 @@
+/* ヘッダー ================================ */
+header {
+  height: 64px;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  background-color: #23271F;
+}
+
+.header-logo {
+  float: left;
+  padding-left: 20px;
+  color: white;
+  font-size: 22px;
+  line-height: 64px;
+}
+
+.header-logo a{
+  color: white;
+  font-size: 22px;
+}
+
+.header-info {
+  float: right;
+  padding-right: 20px;
+}
+
+.header-info li {
+  float: left;
+  line-height: 64px;
+  font-size: 13px;
+  color: white;
+  padding-left: 15px;
+}
+
+.header-info a {
+  float: left;
+  font-size: 13px;
+  color: white;
+}
+
+.header-info .fa {
+  padding-right: 5px;
+}
+
+.header-info input[type="submit"] {
+  padding: 0 20px;
+  float: left;
+  line-height: 64px;
+  color: white;
+  margin: 0;
+  font-size: 13px;
+}
