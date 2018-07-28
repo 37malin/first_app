@@ -9,10 +9,14 @@ header {
 
 .header-logo {
   float: left;
-  padding-left: 20px;
+  padding: 5px 20px;
   color: white;
   font-size: 22px;
   line-height: 64px;
+}
+
+.header-logo:hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .header-logo a{
@@ -22,7 +26,11 @@ header {
 
 .header-info {
   float: right;
-  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.header-info li:hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .header-info li {
@@ -30,7 +38,7 @@ header {
   line-height: 64px;
   font-size: 13px;
   color: white;
-  padding-left: 15px;
+  padding: 5px 10px;
 }
 
 .header-info a {
