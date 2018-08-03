@@ -29,7 +29,7 @@ class PostsController < ApplicationController
     @post = Post.find_by(id: params[:id])
     @post.content = params[:content]
     if @post.save
-      flash[:notice] = "Edit successfuly"
+      flash[:notice] = "Edit successfully"
       redirect_to("/posts/index")
     else
       render("posts/edit")
@@ -39,7 +39,7 @@ class PostsController < ApplicationController
   def destroy
     @post = Post.find_by(id: params[:id])
     @post.destroy
-    flash[:notice] = "Deleated successfuly"
+    flash[:notice] = "Deleated successfully"
     redirect_to("/posts/index")
   end
 
