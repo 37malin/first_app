@@ -38,7 +38,7 @@ form input[type="submit"] {
   cursor: pointer;
 }
 
-/* 共通レイアウト ================================ */
+/* Same layout ================================ */
 body {
   color: #2d3133;
   margin: 0;
@@ -81,7 +81,7 @@ body {
   background-image: url("/toppage.jpg");
 }
 
-.top-message {
+.greeting {
   position: relative;
 }
 
@@ -98,27 +98,27 @@ body {
 }
 
 /* about ================================ */
-.about-main {
+.about-top {
   padding: 180px 8% 0;
   color: #7A94A6;
 }
 
-.about-main h2 {
+.about-top h2 {
   font-size: 64px;
   font-weight: 500;
   line-height: 1.4;
 }
 
-.about-main p {
+.about-top p {
   font-weight: 200;
   font-size: 20px;
 }
 
 .about-img {
-  width: 84%;
+  width: 80%;
 }
 
-/* フォーム================================ */
+/* form ================================ */
 .form {
   max-width: 600px;
   margin: 0 auto;
@@ -176,7 +176,7 @@ body {
   clear: both;
 }
 
-/* フラッシュ ================================ */
+/* flash ================================ */
 .flash {
   padding: 10px 0;
   color: white;
